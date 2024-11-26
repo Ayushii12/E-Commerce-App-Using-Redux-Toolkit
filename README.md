@@ -1,10 +1,11 @@
-# React + Vite
+# E-Commerce Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple E-Commerce application built with React and Redux Toolkit to demonstrate state management across an application. This project showcases how to use Redux Toolkit to globally manage and access state, bypassing the component hierarchy. 
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-# coding-project-template
+- Display a list of products
+- Add products to a shopping cart
+- View items in the cart
+- Remove items from the cart
+- Manage state globally across the application using Redux Toolkit
