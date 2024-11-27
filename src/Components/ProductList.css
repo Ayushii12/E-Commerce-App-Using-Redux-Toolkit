@@ -9,18 +9,24 @@
   
   .product-list-items {
     list-style: none;
-    padding: 0;
+    width: 400px;
+    padding: 10px;
+    margin: 20px auto;
+    align-items: center;
+    background-color: #b4e1e2;
+    border: #364f51;
+    border-radius: 5px;
   }
   
   .product-list-item {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-bottom: 10px;
   }
   
   .add-to-cart-btn {
-    background-color: #007bff;
+    background-color: #264c4e;
     color: #fff;
     border: none;
     padding: 5px 10px;
